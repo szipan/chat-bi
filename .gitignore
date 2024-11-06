@@ -49,3 +49,4 @@ chatbi.log
 chatbi.log.*
 chatbi_test.log
 downloads/*
+.env

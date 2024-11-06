@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import json
 
-DB_Type = 'Apache Doris'
+DB_Type = 'MySQL'
 
 
 ScenarioSelectionPrompt = f"""你现在是一个{DB_Type}数据仓库查询助理,根据用户的问题和分别每个场景的描述信息，返回用户问题对应场景的名字,

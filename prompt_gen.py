@@ -28,6 +28,10 @@ prompt_path = save_to_path + "/" + prompt_file_name
 example_path = save_to_path + "/" + example_file_name
 rag_path = save_to_path + "/" + rag_file_name
 
+try:
+    os.makedirs(data_files, exist_ok=True)  # exist_ok=True prevents error if directory exists
+except OSError as error:
+    print(f"Directory creation failed: {error}")
 
 def confirm_action(prompt_input):
     """

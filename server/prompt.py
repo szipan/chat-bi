@@ -49,7 +49,7 @@ def _build_single_question_prompt()->str:
     def find_meta(option_question:str)->dict:
         对option_question分析出查询信息集合:option_query_lst, 查询条件集合:option_query_conditions
         result['query_count'] = len(option_query_lst)
-        result['condition_count'] = len(option_query_lst)
+        result['condition_count'] = len(option_query_conditions)
 
         condition_cache = dict()
         for condition in option_query_conditions:

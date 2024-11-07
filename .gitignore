@@ -50,3 +50,5 @@ chatbi.log.*
 chatbi_test.log
 downloads/*
 .env
+.env
+.env
